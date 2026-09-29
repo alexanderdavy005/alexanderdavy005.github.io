@@ -20,7 +20,7 @@ font stacks fall back to system fonts if that request fails or is blocked.
 1. **Biomimetic Assistive Glove** — The Biomimetic Wearable Robotics Lab
 2. **Exoskeleton Linkage Connector** — The Biomimetic Wearable Robotics Lab
 3. **Foot-Pressure Sensor Sole** — The Biomimetic Wearable Robotics Lab
-4. **Carbon Capture Filtration Chamber** — CarbonCLAIR
+4. **Carbon Capture Prototype** — CarbonCLAIR (R&D Intern, Summer 2025)
 5. **Fuselage Manufacturing** — AIAA
 6. **Landing Gear Shock Isolation Pad** — AIAA
 7. **Motor Grain Test Stand** — Harlem Launch Alliance
