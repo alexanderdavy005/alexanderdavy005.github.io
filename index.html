@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Alexander Davydovych — Mechanical Engineering Portfolio</title>
+<meta name="description" content="Mechanical engineering portfolio of Alexander Davydovych — CAD, prototyping, and hardware testing across wearable robotics, aerospace, and carbon capture.">
+<meta name="author" content="Alexander Davydovych">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Alexander Davydovych — Mechanical Engineering Portfolio">
+<meta property="og:description" content="CAD, prototyping, and hardware testing across wearable robotics, aerospace, and carbon capture.">
+<!-- Link previews (LinkedIn/Slack/Facebook) need ABSOLUTE urls. Replace USER and REPO
+     with your GitHub Pages address once the site is live, then delete this comment. -->
+<meta property="og:url" content="https://USER.github.io/REPO/">
+<meta property="og:image" content="https://USER.github.io/REPO/images/exo-rig.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚙️</text></svg>">
+</head>
+<body>
+
+<a class="skip" href="#projects">Skip to projects</a>
+
+<header class="masthead">
+  <div class="wrap masthead-inner">
+    <div class="identity">
+      <h1>Alexander Davydovych</h1>
+      <p class="subtitle">Mechanical Engineering &middot; The City College of New York</p>
+    </div>
+    <ul class="contact">
+      <li>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 6.5A1.5 1.5 0 0 1 4.5 5h15A1.5 1.5 0 0 1 21 6.5v11a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 17.5z"/><path d="m3.6 6.8 8.4 6 8.4-6"/></svg>
+        <a href="mailto:alexanderdavy005@gmail.com">alexanderdavy005@gmail.com</a>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5.5 4.5A1.7 1.7 0 1 1 5.49 7.9 1.7 1.7 0 0 1 5.5 4.5M4 9.5h3v10H4zM10 9.5h2.9v1.4a3.2 3.2 0 0 1 2.9-1.6c2.3 0 3.7 1.5 3.7 4.2v5.9h-3v-5.3c0-1.4-.5-2.2-1.7-2.2-1 0-1.7.7-1.9 1.6v5.9h-3z"/></svg>
+        <a href="https://www.linkedin.com/in/alexander-davydovych123" target="_blank" rel="noopener">linkedin.com/in/alexander-davydovych123</a>
+      </li>
+      <li>
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 3.5h3l1.5 3.7-2 1.3a11 11 0 0 0 5.4 5.4l1.3-2 3.7 1.5v3a1.6 1.6 0 0 1-1.8 1.6A15.5 15.5 0 0 1 5 5.3a1.6 1.6 0 0 1 1.6-1.8"/></svg>
+        <a href="tel:+17187583339">718-758-3339</a>
+      </li>
+    </ul>
+  </div>
+</header>
+
+<nav class="tocbar" aria-label="Projects">
+  <div class="wrap tocbar-inner">
+    <span class="tocbar-label">Projects</span>
+    <ul>
+      <li><a href="#glove">Assistive Glove</a></li>
+      <li><a href="#exoskeleton">Exoskeleton Linkage</a></li>
+      <li><a href="#sole">Foot-Pressure Sole</a></li>
+      <li><a href="#carbon">Carbon Capture</a></li>
+      <li><a href="#fuselage">Fuselage</a></li>
+      <li><a href="#landing-gear">Landing Gear Pad</a></li>
+      <li><a href="#test-stand">Motor Test Stand</a></li>
+      <li><a href="#banner">TPU Banner</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="wrap" id="projects" tabindex="-1">
+
+  <!-- 1 -->
+  <article class="project" id="glove">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-bwrl.png" alt="" width="48" height="66" loading="lazy">
+      <div>
+        <h2>Biomimetic Assistive Glove</h2>
+        <p class="org">The Biomimetic Wearable Robotics Lab</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure class="fit"><img src="images/glove-cad-guidecurves.jpg" alt="SolidWorks surface loft of the glove palm with guide curves and cross-section sketches shown" loading="lazy" width="360" height="354"></figure>
+      <figure class="fit"><img src="images/glove-hand-skin.jpg" alt="Rendered biomimetic glove hand model in a skin-tone finish, palm facing forward" loading="lazy" width="453" height="397"></figure>
+      <figure class="fit"><img src="images/glove-assembly-grey.jpg" alt="Three-component glove assembly — thumb, palm, and fingers — shown exploded in grey" loading="lazy" width="527" height="311"></figure>
+    </div>
+
+    <div class="detail detail-2">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Developed a CAD model of a biomimetic assistive glove hand with complex palm, finger, and thumb geometry.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Built guide-curve-driven surface lofts in SolidWorks to correct geometry deformation across the palm and fingers.</li>
+          <li>Split the single-part model into a three-component assembly (thumb, palm, fingers).</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <!-- 2 -->
+  <article class="project" id="exoskeleton">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-bwrl.png" alt="" width="48" height="66" loading="lazy">
+      <div>
+        <h2>Exoskeleton Linkage Connector</h2>
+        <p class="org">The Biomimetic Wearable Robotics Lab</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure class="fit"><img src="images/exo-connector-original.jpg" alt="CAD view of the original 17.5 mm ankle linkage connector mounted to its flange" loading="lazy" width="378" height="268"></figure>
+      <figure class="fit"><img src="images/exo-connector-redesign.jpg" alt="CAD view of the redesigned 34 mm linkage connector showing added clearance" loading="lazy" width="497" height="295"></figure>
+      <figure><img src="images/exo-rig.jpg" alt="Physical ankle exoskeleton test rig with the redesigned linkage installed" loading="lazy" width="681" height="908"></figure>
+    </div>
+
+    <ul class="metrics">
+      <li><span class="metric-value">+94%</span><span class="metric-label">Connector length</span></li>
+      <li><span class="metric-value">0–45°</span><span class="metric-label">Ankle range of motion</span></li>
+      <li><span class="metric-value">15 mm</span><span class="metric-label">Motor relocation specified</span></li>
+    </ul>
+
+    <div class="detail detail-3">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Redesign the ankle-exoskeleton linkage connector to improve clearance and restore the required ankle range of motion.</li>
+          <li>Address interference caused by the original 17.5 mm connector.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Used hand-calculated clearances and SolidWorks to redesign the linkage connector from 17.5 mm to 34 mm.</li>
+          <li>Specified a 15 mm motor relocation to prevent interference between the linkage and surrounding frame.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Results</h3>
+        <ul>
+          <li>Increased connector length by 94%, enabling the linkage to move through the required geometry.</li>
+          <li>Achieved 0–45° ankle motion and verified the redesigned assembly on the physical exoskeleton rig.</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <!-- 3 -->
+  <article class="project" id="sole">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-bwrl.png" alt="" width="48" height="66" loading="lazy">
+      <div>
+        <h2>Foot-Pressure Sensor Sole</h2>
+        <p class="org">The Biomimetic Wearable Robotics Lab</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure><img src="images/sole-sensor-closeup.jpg" alt="Gloved hand holding a single SLS-printed TPU 90A hexagonal pressure sensor above a tray of others" loading="lazy" width="681" height="908"></figure>
+      <figure><img src="images/sole-bench-test.jpg" alt="Bench setup with wired sensor pucks laid out for testing" loading="lazy" width="643" height="857"></figure>
+      <figure><img src="images/sole-wired-assembly.jpg" alt="Completed 21-sensor sole wired to a breadboard and Arduino" loading="lazy" width="400" height="455"></figure>
+    </div>
+
+    <ul class="metrics">
+      <li><span class="metric-value">21</span><span class="metric-label">Sensors in the sole</span></li>
+      <li><span class="metric-value">7</span><span class="metric-label">Failures root-caused</span></li>
+      <li><span class="metric-value">TPU 90A</span><span class="metric-label">SLS-printed material</span></li>
+    </ul>
+
+    <div class="detail detail-3">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Prototyped and tested a 21-sensor foot-pressure sole.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Used SLS-printed TPU 90A sensors, tested with Arduino.</li>
+          <li>Ran root cause analysis on 7 sensor failures.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Results</h3>
+        <ul>
+          <li>Traced the failures to tape-related contact issues.</li>
+          <li>Restored consistent readings.</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <!-- 4 -->
+  <article class="project" id="carbon">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-carbonclair.png" alt="" width="60" height="60" loading="lazy">
+      <div>
+        <h2>Carbon Capture Filtration Chamber</h2>
+        <p class="org">CarbonCLAIR</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure><img src="images/carbon-sensor-bracket.jpg" alt="Hand holding the 3D-printed red-and-white CO₂ sensor bracket clipped onto ducting" loading="lazy" width="605" height="807"></figure>
+      <figure><img src="images/carbon-filter-chamber.jpg" alt="Plywood filtration chamber with panel filters and a circular duct inlet" loading="lazy" width="360" height="480"></figure>
+      <figure><img src="images/carbon-field-deploy.jpg" alt="The mobile carbon-capture prototype deployed outdoors under a canopy with orange ducting" loading="lazy" width="800" height="600"></figure>
+    </div>
+
+    <ul class="metrics">
+      <li><span class="metric-value">&lt;130 W</span><span class="metric-label">Total prototype power</span></li>
+      <li><span class="metric-value">−80%</span><span class="metric-label">Sensor bracket material cost</span></li>
+      <li><span class="metric-value">CO₂ + PM2.5</span><span class="metric-label">Capture targets</span></li>
+    </ul>
+
+    <div class="detail detail-3">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Contributed to a mobile carbon-capture prototype for construction-site air filtration.</li>
+          <li>Supported CO₂ and PM2.5 capture with custom sensor brackets and filter supports.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Designed and iterated custom CO₂ sensor brackets for fitment and mounting.</li>
+          <li>Built filter-mounting supports for two filter sizes using a table saw, miter saw, and sanding.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Results</h3>
+        <ul>
+          <li>Prototype operated at below 130 W total power.</li>
+          <li>Cut sensor bracket material cost 80%.</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <!-- 5 -->
+  <article class="project" id="fuselage">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-aiaa.png" alt="" width="72" height="72" loading="lazy">
+      <div>
+        <h2>Fuselage Manufacturing</h2>
+        <p class="org">American Institute of Aeronautics and Astronautics</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure class="fit"><img src="images/fuselage-cad.jpg" alt="CAD model of the Design/Build/Fly aircraft fuselage with internal ribs visible" loading="lazy" width="648" height="326"></figure>
+      <figure><img src="images/fuselage-lasercut.jpg" alt="Thunder Laser cutter mid-cut on a sheet of balsa fuselage components" loading="lazy" width="1100" height="825"></figure>
+      <figure><img src="images/fuselage-assembled.jpg" alt="Assembled wooden fuselage frame on a workbench" loading="lazy" width="857" height="1143"></figure>
+    </div>
+
+    <ul class="metrics">
+      <li><span class="metric-value">20+</span><span class="metric-label">Fuselage components manufactured</span></li>
+      <li><span class="metric-value">3</span><span class="metric-label">Materials: balsa, basswood, plywood</span></li>
+    </ul>
+
+    <div class="detail detail-3">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Manufactured fuselage components for the team's Design/Build/Fly aircraft.</li>
+          <li>Improved fitment between the upper and lower ribs and surrounding fuselage parts.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Laser-cut components from balsa, basswood, and plywood on a Thunder Laser cutter.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Results</h3>
+        <ul>
+          <li>Manufactured 20+ fuselage components.</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <!-- 6 -->
+  <article class="project" id="landing-gear">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-aiaa.png" alt="" width="72" height="72" loading="lazy">
+      <div>
+        <h2>Landing Gear Shock Isolation Pad</h2>
+        <p class="org">American Institute of Aeronautics and Astronautics</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure class="fit"><img src="images/landing-gear-cad.jpg" alt="Exploded CAD view of the landing gear wing box showing the shock isolation pad location" loading="lazy" width="369" height="327"></figure>
+      <figure><img src="images/landing-gear-tpu-iterations.jpg" alt="Four printed TPU pad iterations at different infill densities" loading="lazy" width="348" height="222"></figure>
+      <figure><img src="images/landing-gear-wingbox.jpg" alt="Hand holding the wooden wing box with the TPU pad integrated" loading="lazy" width="857" height="1143"></figure>
+    </div>
+
+    <ul class="metrics">
+      <li><span class="metric-value">4</span><span class="metric-label">TPU iterations printed</span></li>
+      <li><span class="metric-value">5–50%</span><span class="metric-label">Infill range tested</span></li>
+      <li><span class="metric-value">10%</span><span class="metric-label">Infill selected</span></li>
+    </ul>
+
+    <div class="detail detail-3">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Developed a low-cost TPU replacement for the rubber shock isolation in the landing gear wing box.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Printed four FDM TPU iterations ranging from 5% to 50% infill.</li>
+          <li>Selected the 10% infill design for the wing box.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Results</h3>
+        <ul>
+          <li>Integrated the 10% infill pad into the wing box with proper fit.</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <!-- 7 -->
+  <article class="project" id="test-stand">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-hla.png" alt="" width="68" height="68" loading="lazy">
+      <div>
+        <h2>Motor Grain Test Stand</h2>
+        <p class="org">Harlem Launch Alliance</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure class="fit"><img src="images/teststand-cad.jpg" alt="CAD model of the motor grain test stand with teal triangular support brackets" loading="lazy" width="362" height="370"></figure>
+      <figure><img src="images/teststand-fabrication.jpg" alt="Fabricating and measuring the test stand base plate on a workbench" loading="lazy" width="681" height="1210"></figure>
+      <figure><img src="images/teststand-assembled.jpg" alt="Completed aluminium extrusion test stand structure with motor casing installed" loading="lazy" width="454" height="807"></figure>
+    </div>
+
+    <ul class="metrics">
+      <li><span class="metric-value">Class H</span><span class="metric-label">Motor grain rating</span></li>
+      <li><span class="metric-value">15+</span><span class="metric-label">Components coordinated</span></li>
+      <li><span class="metric-value">3</span><span class="metric-label">Engineers led, as Propulsion Lead</span></li>
+    </ul>
+
+    <div class="detail detail-3">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Led a three-engineer team to build a Class H motor grain test stand.</li>
+          <li>Coordinated fabrication and assembly of 15+ components as Propulsion Lead.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Redesigned the triangular support brackets in SolidWorks.</li>
+          <li>Resolved sliding-plate fitment issues through mechanical adjustments and lubrication.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Results</h3>
+        <ul>
+          <li>Completed the structural assembly, enabling thrust-stand assembly.</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <!-- 8 -->
+  <article class="project" id="banner">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-aiaa.png" alt="" width="72" height="72" loading="lazy">
+      <div>
+        <h2>TPU Banner Prototype</h2>
+        <p class="org">American Institute of Aeronautics and Astronautics</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure><img src="images/banner-tpu-sheets.jpg" alt="Thin printed TPU banner sheets lit from behind to show translucency" loading="lazy" width="605" height="807"></figure>
+      <figure><img src="images/banner-measuring.jpg" alt="Assembled modular banner laid out on the floor next to a tape measure" loading="lazy" width="1100" height="825"></figure>
+      <figure><img src="images/banner-assembled.jpg" alt="Full-length assembled TPU banner prototype in the lab" loading="lazy" width="857" height="1143"></figure>
+    </div>
+
+    <ul class="metrics">
+      <li><span class="metric-value">0.08–0.20 mm</span><span class="metric-label">Thicknesses tensile-tested</span></li>
+      <li><span class="metric-value">0.08 mm</span><span class="metric-label">Thickness selected</span></li>
+      <li><span class="metric-value">Modular</span><span class="metric-label">Replaceable sections</span></li>
+    </ul>
+
+    <div class="detail detail-3">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Designed and assembled a lightweight, modular TPU banner prototype for a towable aircraft banner concept.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Tensile-tested FDM-printed TPU sheets at three thicknesses (0.08–0.20 mm).</li>
+          <li>Selected 0.08 mm for flexibility while retaining sufficient tensile strength.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Results</h3>
+        <ul>
+          <li>Modular design allowed damaged sections to be replaced or reworked quickly, despite weight issues.</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap foot-inner">
+    <p class="foot-name">Alexander Davydovych</p>
+    <ul class="foot-links">
+      <li><a href="mailto:alexanderdavy005@gmail.com">alexanderdavy005@gmail.com</a></li>
+      <li><a href="https://www.linkedin.com/in/alexander-davydovych123" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="tel:+17187583339">718-758-3339</a></li>
+    </ul>
+  </div>
+</footer>
+
+<!-- Lightbox -->
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Enlarged image" hidden>
+  <button class="lightbox-close" type="button" aria-label="Close">&times;</button>
+  <img id="lightbox-img" alt="">
+  <p class="lightbox-caption" id="lightbox-caption" aria-hidden="true"></p>
+</div>
+
+<script>
+(function () {
+  var box = document.getElementById('lightbox');
+  var img = document.getElementById('lightbox-img');
+  var cap = document.getElementById('lightbox-caption');
+  var lastFocus = null;
+  var lastScroll = 0;
+
+  function focusNoScroll(el) {
+    try { el.focus({ preventScroll: true }); } catch (e) { el.focus(); }
+  }
+
+  function open(source) {
+    lastFocus = source;
+    lastScroll = window.scrollY;
+    img.src = source.src;
+    img.alt = source.alt;
+    cap.textContent = source.alt;
+    box.hidden = false;
+    document.body.classList.add('no-scroll');
+    focusNoScroll(box.querySelector('.lightbox-close'));
+    window.scrollTo(0, lastScroll);
+  }
+  function close() {
+    box.hidden = true;
+    img.removeAttribute('src');
+    document.body.classList.remove('no-scroll');
+    window.scrollTo(0, lastScroll);
+    if (lastFocus) focusNoScroll(lastFocus);
+  }
+
+  document.querySelectorAll('.gallery img').forEach(function (el) {
+    el.tabIndex = 0;
+    el.setAttribute('role', 'button');
+    el.addEventListener('click', function () { open(el); });
+    el.addEventListener('keydown', function (e) {
+      if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); open(el); }
+    });
+  });
+
+  box.addEventListener('click', function (e) {
+    if (e.target === box || e.target.classList.contains('lightbox-close')) close();
+  });
+  document.addEventListener('keydown', function (e) {
+    if (box.hidden) return;
+    if (e.key === 'Escape') { close(); return; }
+    // The dialog holds a single focusable control; keep Tab inside it so focus
+    // never lands on background content that aria-modal has hidden.
+    if (e.key === 'Tab') {
+      e.preventDefault();
+      focusNoScroll(box.querySelector('.lightbox-close'));
+    }
+  });
+})();
+</script>
+
+</body>
+</html>
