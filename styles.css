@@ -164,9 +164,8 @@ a:hover { text-decoration-color: currentColor; }
 .tocbar-inner {
   display: flex;
   align-items: center;
-  gap: 18px;
-  overflow-x: auto;
-  scrollbar-width: thin;
+  flex-wrap: wrap;
+  gap: 0 18px;
 }
 
 .tocbar-label {
@@ -182,7 +181,8 @@ a:hover { text-decoration-color: currentColor; }
 .tocbar ul {
   list-style: none;
   display: flex;
-  gap: 4px;
+  flex-wrap: wrap;
+  gap: 0 4px;
   margin: 0;
   padding: 0;
 }
@@ -464,6 +464,11 @@ main.wrap { padding: 8px 24px 56px; }
 
   main.wrap { padding: 8px 16px 40px; }
   .wrap { padding: 0 16px; }
+
+  .tocbar { position: static; }
+  .tocbar-inner { gap: 0 12px; }
+  .tocbar-label { padding: 12px 0 2px; }
+  .tocbar a { padding: 7px 9px; }
 
   .project { padding: 22px 18px 24px; margin: 26px 0; border-radius: 8px; }
   .gallery-3 { grid-template-columns: 1fr; }
