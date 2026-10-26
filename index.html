@@ -52,6 +52,7 @@
   <div class="wrap tocbar-inner">
     <span class="tocbar-label">Projects</span>
     <ul>
+      <li><a href="#propeller">Propeller Thrust Stand</a></li>
       <li><a href="#glove">Assistive Glove</a></li>
       <li><a href="#exoskeleton">Exoskeleton Linkage</a></li>
       <li><a href="#sole">Foot-Pressure Sole</a></li>
@@ -60,6 +61,7 @@
       <li><a href="#landing-gear">Landing Gear Pad</a></li>
       <li><a href="#test-stand">Motor Test Stand</a></li>
       <li><a href="#banner">TPU Banner</a></li>
+      <li><a href="#motor-grain">Motor Grain Manufacturing</a></li>
     </ul>
   </div>
 </nav>
@@ -67,6 +69,52 @@
 <main class="wrap" id="projects" tabindex="-1">
 
   <!-- 1 -->
+  <article class="project" id="propeller">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-aiaa.png" alt="" width="72" height="72" loading="lazy">
+      <div>
+        <h2>Propeller Thrust Stand</h2>
+        <p class="org">American Institute of Aeronautics and Astronautics</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure class="fit"><img src="images/propeller-fea.jpg" alt="SolidWorks FEA von Mises stress plot of the aluminium mounting plate, peaking at 30.7 MPa against a 275 MPa yield strength" loading="lazy" width="383" height="336"></figure>
+      <figure class="fit"><img src="images/propeller-drawing.jpg" alt="Dimensioned technical drawing of the front mounting plate with GD&amp;T callouts and an isometric view" loading="lazy" width="672" height="353"></figure>
+      <figure><img src="images/propeller-installed.jpg" alt="Hand holding the blue thrust stand with the aluminium mounting plate and brushless motor installed" loading="lazy" width="402" height="536"></figure>
+    </div>
+
+    <ul class="metrics">
+      <li><span class="metric-value">30.7 MPa</span><span class="metric-label">Max von Mises stress</span></li>
+      <li><span class="metric-value">98.1 N</span><span class="metric-label">FEA load</span></li>
+      <li><span class="metric-value">Al 6061</span><span class="metric-label">Plate material</span></li>
+    </ul>
+
+    <div class="detail detail-3">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Designed an Aluminum 6061 front mounting plate for the AIAA propeller thrust stand.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Modeled the mounting plate in SolidWorks and created a technical drawing using GD&amp;T.</li>
+          <li>Performed Finite Element Analysis under a 98.1 N load and fabricated the plate using waterjet cutting.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Results</h3>
+        <ul>
+          <li>Achieved a maximum von Mises stress of 30.7 MPa, below the 275 MPa yield strength.</li>
+          <li>Successfully fabricated and integrated the mounting plate into the propeller thrust stand.</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <!-- 2 -->
   <article class="project" id="glove">
     <header class="project-head">
       <img class="org-logo" src="images/logo-bwrl.png" alt="" width="48" height="66" loading="lazy">
@@ -99,7 +147,7 @@
     </div>
   </article>
 
-  <!-- 2 -->
+  <!-- 3 -->
   <article class="project" id="exoskeleton">
     <header class="project-head">
       <img class="org-logo" src="images/logo-bwrl.png" alt="" width="48" height="66" loading="lazy">
@@ -146,7 +194,7 @@
     </div>
   </article>
 
-  <!-- 3 -->
+  <!-- 4 -->
   <article class="project" id="sole">
     <header class="project-head">
       <img class="org-logo" src="images/logo-bwrl.png" alt="" width="48" height="66" loading="lazy">
@@ -157,7 +205,7 @@
     </header>
 
     <div class="gallery gallery-3">
-      <figure><img src="images/sole-sensor-closeup.jpg" alt="Gloved hand holding a single SLS-printed TPU 90A hexagonal pressure sensor above a tray of others" loading="lazy" width="681" height="908"></figure>
+      <figure><img src="images/sole-sensor-closeup.jpg" alt="Gloved hand holding a single hexagonal pressure sensor above a tray of others" loading="lazy" width="681" height="908"></figure>
       <figure><img src="images/sole-bench-test.jpg" alt="Bench setup with wired sensor pucks laid out for testing" loading="lazy" width="643" height="857"></figure>
       <figure><img src="images/sole-wired-assembly.jpg" alt="Completed 21-sensor sole wired to a breadboard and Arduino" loading="lazy" width="400" height="455"></figure>
     </div>
@@ -165,7 +213,6 @@
     <ul class="metrics">
       <li><span class="metric-value">21</span><span class="metric-label">Sensors in the sole</span></li>
       <li><span class="metric-value">7</span><span class="metric-label">Failures root-caused</span></li>
-      <li><span class="metric-value">TPU 90A</span><span class="metric-label">SLS-printed material</span></li>
     </ul>
 
     <div class="detail detail-3">
@@ -178,21 +225,21 @@
       <section>
         <h3>How</h3>
         <ul>
-          <li>Used SLS-printed TPU 90A sensors, tested with Arduino.</li>
-          <li>Ran root cause analysis on 7 sensor failures.</li>
+          <li>Assembled pressure sensors using conductive layers, adhesive, and soldered connections.</li>
+          <li>Used Arduino to evaluate sensor readings and troubleshoot seven nonfunctional sensors.</li>
         </ul>
       </section>
       <section>
         <h3>Results</h3>
         <ul>
-          <li>Traced the failures to tape-related contact issues.</li>
-          <li>Restored consistent readings.</li>
+          <li>Identified adhesive-related electrical contact issues as the primary cause of sensor failures.</li>
+          <li>Restored consistent readings by replacing adhesive with electrical tape and repairing solder connections.</li>
         </ul>
       </section>
     </div>
   </article>
 
-  <!-- 4 -->
+  <!-- 5 -->
   <article class="project" id="carbon">
     <header class="project-head">
       <img class="org-logo" src="images/logo-carbonclair.png" alt="" width="60" height="60" loading="lazy">
@@ -239,7 +286,7 @@
     </div>
   </article>
 
-  <!-- 5 -->
+  <!-- 6 -->
   <article class="project" id="fuselage">
     <header class="project-head">
       <img class="org-logo" src="images/logo-aiaa.png" alt="" width="72" height="72" loading="lazy">
@@ -282,7 +329,7 @@
     </div>
   </article>
 
-  <!-- 6 -->
+  <!-- 7 -->
   <article class="project" id="landing-gear">
     <header class="project-head">
       <img class="org-logo" src="images/logo-aiaa.png" alt="" width="72" height="72" loading="lazy">
@@ -327,7 +374,7 @@
     </div>
   </article>
 
-  <!-- 7 -->
+  <!-- 8 -->
   <article class="project" id="test-stand">
     <header class="project-head">
       <img class="org-logo" src="images/logo-hla.png" alt="" width="68" height="68" loading="lazy">
@@ -373,7 +420,7 @@
     </div>
   </article>
 
-  <!-- 8 -->
+  <!-- 9 -->
   <article class="project" id="banner">
     <header class="project-head">
       <img class="org-logo" src="images/logo-aiaa.png" alt="" width="72" height="72" loading="lazy">
@@ -413,6 +460,50 @@
         <h3>Results</h3>
         <ul>
           <li>Modular design allowed damaged sections to be replaced or reworked quickly, despite weight issues.</li>
+        </ul>
+      </section>
+    </div>
+  </article>
+
+  <!-- 10 -->
+  <article class="project" id="motor-grain">
+    <header class="project-head">
+      <img class="org-logo" src="images/logo-hla.png" alt="" width="68" height="68" loading="lazy">
+      <div>
+        <h2>Class H Solid Rocket Motor Grain Manufacturing</h2>
+        <p class="org">Harlem Launch Alliance</p>
+      </div>
+    </header>
+
+    <div class="gallery gallery-3">
+      <figure><img src="images/grain-casting.jpg" alt="Gloved hands mixing sugar propellant in an electric skillet inside a fume hood" loading="lazy" width="254" height="228"></figure>
+      <figure><img src="images/grain-molds.jpg" alt="Two sets of motor grain casting molds on a workbench with white casting rods inserted" loading="lazy" width="340" height="198"></figure>
+      <figure><img src="images/grain-test-fire.jpg" alt="Static test fire of a finished motor grain producing a plume of white exhaust" loading="lazy" width="231" height="253"></figure>
+    </div>
+
+    <ul class="metrics">
+      <li><span class="metric-value">Class H</span><span class="metric-label">Motor grain rating</span></li>
+    </ul>
+
+    <div class="detail detail-3">
+      <section>
+        <h3>What</h3>
+        <ul>
+          <li>Manufactured Class H solid rocket motor grains following established procedures and published research from Nakka Rocketry.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>How</h3>
+        <ul>
+          <li>Researched published rocketry literature and manufacturing practices to establish a consistent fabrication workflow.</li>
+          <li>Applied mold-release techniques to facilitate grain removal and reduce the risk of damage during demolding.</li>
+        </ul>
+      </section>
+      <section>
+        <h3>Results</h3>
+        <ul>
+          <li>Manufactured multiple solid rocket motor grains for the club's propulsion development activities.</li>
+          <li>Documented the manufacturing workflow to support consistency and future team use.</li>
         </ul>
       </section>
     </div>
